@@ -542,13 +542,13 @@ var menus = {
 		MENU_DIVIDER,
 		{
 			// item: "&About Windows 98",
-			item: "&About 98.js.org",
+			item: "&About bruhLNV.js",
 			action: function () {
 				// TODO: about dialog
-				window.open("https://github.com/1j01/98#readme");
+				window.open("https://bruhlnv.github.io/help/default.html");
 			},
 			// description: "Displays program information, version number, and copyright.",
-			description: "Opens the 98.js project Web page.",
+			description: "bruhLNV 98.js fork help",
 		}
 	],
 };
