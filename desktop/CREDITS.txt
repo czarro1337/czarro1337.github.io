@@ -1,1 +1,7 @@
 ## 98.js.org - source code
+
+hi welcome to my website its a fork of 98.js so im changing the whole
+code so its my website kind of. so you can interact with the desktop it has
+games and working jspaint and stuff, all the program credits goes to respectful owners!
+
+:-)
