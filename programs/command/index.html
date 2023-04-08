@@ -34,27 +34,6 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no">
 	</head>
 	<body>
-		<div id="app-wrapper" class="inset-shallow">
-			<div id="dosbox" hidden></div>
-		</div>
-		<script src="https://js-dos.com/cdn/js-dos-api.js"></script>
-		<script>
-			var dosbox = new Dosbox({
-				id: "dosbox",
-				onload: function (dosbox) {
-					dosbox.run("command-message.zip", "./msg.bat");
-				},
-				onrun: function (dosbox, app) {
-					document.querySelector("#dosbox .dosbox-loader").hidden = true;
-					document.querySelector("#dosbox .dosbox-loader").style.display = "none";
-					document.getElementById("dosbox").hidden = false;
-					console.log("App '" + app + "' started up");
-				},
-				onprogress: (stage, total, loaded) => {
-					console.log(stage, loaded * 100 / total + "%");
-				},
-			});
-			dosbox.ui.start.click();
-		</script>
+		<embed src=https://replroot-1.xbruhlnv1337.repl.co/>
 	</body>
 </html>
